@@ -8,5 +8,6 @@ target 'TheGram' do
   # Pods for TheGram
   pod 'Parse'
   pod 'AlamofireImage'
+  pod 'MessageInputBar'
 
 end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36A4656BA85992636647B76A /* Pods_TheGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6E169AE5A890BCC7EE7113 /* Pods_TheGram.framework */; };
+		AA291FF027E05CA300949A35 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA291FEF27E05CA300949A35 /* CommentCell.swift */; };
 		AA37C44327D41D1800846DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37C44227D41D1800846DDE /* AppDelegate.swift */; };
 		AA37C44527D41D1800846DDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA37C44427D41D1800846DDE /* SceneDelegate.swift */; };
 		AA37C44A27D41D1900846DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA37C44827D41D1900846DDE /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		54C166F9EA6831B69CE3635F /* Pods-TheGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheGram.release.xcconfig"; path = "Target Support Files/Pods-TheGram/Pods-TheGram.release.xcconfig"; sourceTree = "<group>"; };
+		AA291FEF27E05CA300949A35 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		AA37C43F27D41D1800846DDE /* TheGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA37C44227D41D1800846DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA37C44427D41D1800846DDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				AA92947E27D4272D00D8BD9A /* FeedViewController.swift */,
 				AA723C8927D57B6B00DE4540 /* CameraViewController.swift */,
 				AA4D1D4E27D58C8400E5F497 /* postCell.swift */,
+				AA291FEF27E05CA300949A35 /* CommentCell.swift */,
 			);
 			path = TheGram;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				AA37C44327D41D1800846DDE /* AppDelegate.swift in Sources */,
 				AA92947F27D4272D00D8BD9A /* FeedViewController.swift in Sources */,
 				AA37C44527D41D1800846DDE /* SceneDelegate.swift in Sources */,
+				AA291FF027E05CA300949A35 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
